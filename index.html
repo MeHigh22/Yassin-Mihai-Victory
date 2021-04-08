@@ -1,54 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mihai-Yassine-Victory</title>
-    <link rel="stylesheet" href="/public/css/app.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mihai-Yassine-Victory</title>
+  <link rel="stylesheet" href="/public/css/app.css">
 </head>
+
 <body>
-    <header>
-        <div>
-            <h1 class="text-center">Victory</h1>
-            <hr>
+  <header>
+    <div>
+      <h1 class="text-center">Victory</h1>
+      <hr>
+    </div>
+    <nav class="navbar navbar-expand-lg ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav d-md-flex flex-row mx-md-auto mx-0 navtext">
+          <li class="nav-item active">
+            <a class="nav-link text-muted" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Our Menus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Blog Entries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Asiatique -->
+    <section>
+      <div class="bg-foods">
+        <div class="h-100 d-flex justify-content-center align-items-center flex-column">
+          <div>
+            <p class="text-center">Here you can find delicious foods</p>
+          </div>
+          <div>
+            <h1>ASIAN RESTAURANT</h1>
+          </div>
+          <div>
+            Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a
+            nisl non, tempor interdum nisl.
+          </div>
+
+          <div>
+            <button class="mt-5">Order Right Now</button>
+          </div>
+
         </div>
-        <nav class="navbar navbar-expand-lg ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav d-md-flex flex-row mx-md-auto mx-0 navtext">
-                <li class="nav-item active">
-                  <a  class="nav-link text-muted" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-muted" href="#">Our Menus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-muted" href="#">Blog Entries</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-muted" href="#">Contact Us</a>
-                </li>
-              </ul>
+    </section>
+    <!-- lesTroisC -->
+    <section class="cartes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div>
+              <img class="image1" src="/public/images/cook_01.jpg" alt="">
             </div>
-          </nav>
-          <main>
-            <section>
-              <div class="bg-foods">
-                <p class="text-center text-white-50">Here you can find delicious foods</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="cook">
+                <h3>WE COOK DELICIOUS</h3>
+              <div class="contact pl-3 pr-3">
+                <p>You can call us on:</p>
+                <h5>+ 1234 567 8910</h5>
               </div>
-            </section>
-          </main>
-    </header>
+              <span>or</span>
+              <div class="btn-cook">
+                <button>Order now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="image2" src="/public/images/cook_02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
-    <!-- jquery -->
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <!-- bootstrap -->
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- jquery -->
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+  <!-- bootstrap -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
