@@ -16122,7 +16122,7 @@ header ul li a {
   color: #f2745f;
   font-size: 11px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 300;
   border-radius: 5px;
   text-decoration: none;
   border: none;
@@ -16153,6 +16153,24 @@ header ul li a {
   width: 280px;
   margin-left: -30px;
   margin-top: 3em;
+}
+
+section {
+  padding-bottom: 5em;
+}
+
+.menu-element a {
+  text-decoration: none;
+  color: #000;
+}
+.menu-element p {
+  padding-top: 2em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.menu-element img {
+  border: 10px #eaf0ff solid;
+  border-radius: 50%;
 }
 
 * {
