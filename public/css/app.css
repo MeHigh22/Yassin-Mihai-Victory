@@ -16297,6 +16297,130 @@ header ul li a {
   font-size: 0.8em;
 }
 
+.blog {
+  background-color: #f2f6ff;
+  padding: 5em 0em;
+}
+.blog h1 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+
+.carte-blog {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.date {
+  font-size: 1em;
+  color: #f2745f;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 8px 14px;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  background-color: rgba(250, 250, 250, 0.9);
+}
+
+.contenu-blog {
+  background-color: #fff;
+  padding-left: 1em;
+}
+.contenu-blog h5 {
+  font-size: 1em;
+  margin-top: 1em;
+  font-weight: bold;
+}
+.contenu-blog span {
+  font-size: 13px;
+  color: #7a7a7a;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.contenu-blog p {
+  color: #9a9a9a;
+  font-size: 0.75em;
+  line-height: 24px;
+}
+.contenu-blog a {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #f2745f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sign-up {
+  padding: 80px 0px;
+  background-image: url(../../public/images/signup-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+.sign-up h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.sign-up button {
+  margin-left: -30px;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+.sign-up input {
+  margin-left: -10px;
+  height: 44px;
+  border: 3px;
+  background-color: #e7e7e7e3;
+  color: #5a5a5a;
+  box-shadow: none;
+  outline: none;
+}
+
+.bg-footer {
+  background-color: #363e50;
+}
+
+footer p {
+  line-height: 120px;
+  color: white;
+  font-size: 0.7em;
+}
+
+.social-icons {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 5px;
+  line-height: 130px;
+}
+
+footer ul li i {
+  font-size: 0.8em;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #363e50;
+  padding: 8px 0px 0px 8px;
+}
+
 * {
   margin: 0;
   padding: 0;
