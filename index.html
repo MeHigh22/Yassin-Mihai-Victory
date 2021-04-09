@@ -15,7 +15,7 @@
       <h1 class="text-center">Victory</h1>
       <hr>
     </div>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-sm ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -64,7 +64,7 @@
     <section class="cartes">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 col-md-offset-1">
             <div>
               <img class="image1" src="/public/images/cook_01.jpg" alt="">
             </div>
@@ -88,7 +88,7 @@
         </div>
       </div>
     </section>
-
+    <!-- Menu -->
     <section class="menus">
       <div class="container w-75">
         <div class="row">
@@ -126,6 +126,149 @@
           </div>
         </div>
     </section>
+    <!-- Booking -->
+    <section class="booking">
+      <div class="bg-booking">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <h1 class="text-white col-md-12 text-center">BOOK YOUR TABLE NOW</h1>
+            <div class="col-md-4 col-sm-12">
+              <div>
+                <img src="/public/images/book_left_image.jpg" alt="">
+              </div>
+            </div>
+            <!-- Réservation -->
+            <div class="col-md-4 col-sm-12">
+              <div class="reserv">
+                <h3 class="text-center">Reservation</h3>
+                <form action="submit" method="get">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <select class="border-0" name="jour" id="slct">
+                          <option value="">Select Day</option>
+                          <option value="Lundi">Lundi</option>
+                          <option value="Mardi">Mardi</option>
+                          <option value="Mercredi">Mercredi</option>
+                          <option value="Jeudi">Jeudi</option>
+                          <option value="Vendredi">Vendredi</option>
+                          <option value="Samedi">Samedi</option>
+                          <option value="Dimanche">Dimanche</option>
+                        </select>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <select class="border-0" name="heure" id="slct">
+                          <option value="">Select Hour</option>
+                          <option value="Matin">10h00-12h00</option>
+                          <option value="Mat-Ap">12h00-14h00</option>
+                          <option value="Après-midi">16h00-18h00</option>
+                          <option value="A-M">18h00-20h00</option>
+                          <option value="A-M">20h-21h00</option>
+                          <option value="Soir">21h-22h00</option>
+                          <option value="Trop tard">22h00-23h00</option>
+                        </select>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset class="overflow-hidden">
+                        <input class="border-0 pl-2" type="name" placeholder="Full name">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset class="overflow-hidden">
+                        <input class="border-0 pl-2" type="phone" placeholder="Phone number">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <select class="border-0" name="Personnes" id="slct">
+                          <option value="">How many persons</option>
+                          <option value="1">Une personne</option>
+                          <option value="2">Deux personnes</option>
+                          <option value="3">Trois Personnes</option>
+                          <option value="4">Quatre Personnes</option>
+                          <option value="5">Cinq Personnes</option>
+                          <option value="6"> Six Personnes</option>
+                          <option value="6+">Plus de six</option>
+                        </select>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <button>Book table</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- App -->
+
+    <section class="bg-app">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+              <h1 class="text-white">GET APPLICATION FOR YOUR PHONE</h1>
+            </div>
+            <div>
+              <button>
+                DOWNLOAD NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftfoods">
+      <div class="container">
+        <h2>Weekly Featured Food</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="cardfeature">
+              <h3>Breakfast</h3>
+              <img src="public/images/breakfast_item.jpg" alt="">
+              <div class="prix">$4.50</div>
+              <div class="textfeature">
+                <h4>Kale Chips Art Party</h4>
+                <p>Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon street art
+                  knausgaard wolf...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cardfeature">
+              <h3>Lunch</h3>
+              <img src="public/images/lunch_item.jpg" alt="">
+              <div class="prix">$7.50</div>
+              <div class="textfeature">
+                <h4>Taiyaki Gastro Tousled</h4>
+                <p>Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon street art
+                  knausgaard wolf...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cardfeature">
+              <h3>Dinner</h3>
+              <img src="public/images/dinner_item.jpg" alt="">
+              <div class="prix">$12.50</div>
+              <div class="textfeature">
+                <h4>Batch Squid Jean Shorts</h4>
+                <p>Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon street art
+                  knausgaard wolf...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
   </main>
 
 

@@ -16155,10 +16155,6 @@ header ul li a {
   margin-top: 3em;
 }
 
-section {
-  padding-bottom: 5em;
-}
-
 .menu-element a {
   text-decoration: none;
   color: #000;
@@ -16171,6 +16167,134 @@ section {
 .menu-element img {
   border: 10px #eaf0ff solid;
   border-radius: 50%;
+}
+
+.bg-booking {
+  background-image: url(../../public/images/book-bg.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  padding: 6em 0em;
+}
+.bg-booking h1 {
+  font-size: 1.5em;
+  padding-bottom: 2.5em;
+  font-weight: bold;
+}
+
+.reserv {
+  background-color: #fff;
+  height: 290px;
+  padding: 30px;
+  margin-left: -0.6em;
+}
+.reserv h3 {
+  padding-top: 0.3em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.reserv select {
+  width: 100%;
+  border-bottom: 1px solid #eee !important;
+  font-size: 14px;
+  color: #9a9a9a;
+  height: 40px;
+  font-size: 12px;
+}
+.reserv input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee !important;
+  font-size: 14px;
+  color: #9a9a9a;
+  outline: none;
+}
+.reserv button {
+  width: 100%;
+  display: inline-block;
+  background-color: #f2745f;
+  color: #fff !important;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  border: none;
+}
+
+.bg-app {
+  background-color: #f2745f;
+  padding: 4em 0em;
+  margin-bottom: 3em;
+}
+.bg-app h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+.bg-app button {
+  display: inline-block;
+  background-color: #fff;
+  color: #f2745f;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  border: none;
+}
+
+.ftfoods {
+  padding: 3em;
+}
+.ftfoods h2 {
+  text-align: center;
+  padding-bottom: 3em;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.cardfeature {
+  background-color: #f2f6ff;
+  padding: 20px;
+}
+.cardfeature h3 {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  border-bottom: 1px solid #d9dde5;
+  font-weight: bold;
+}
+.cardfeature img {
+  width: 100%;
+  position: relative;
+}
+.cardfeature .prix {
+  font-size: 1em;
+  color: #f2745f;
+  font-weight: bold;
+  padding: 8px 14px;
+  position: absolute;
+  right: 35px;
+  margin-top: -40px;
+  background-color: #f0f0f0c4;
+}
+.cardfeature .textfeature {
+  background-color: #fff;
+  padding: 20px 20px 10px 20px;
+}
+.cardfeature .textfeature h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+.cardfeature .textfeature p {
+  color: #9a9a9a;
+  font-size: 0.8em;
 }
 
 * {
